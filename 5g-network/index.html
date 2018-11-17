@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Data Warehouse vs Data Lake</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Data Warehouse</h2>
+				<h3>VS</h3>
+				<h2>Data Lake</h2>
+				<p>
+					<small>Created by <a href="https://github.com/irhamdz">Irham Dzuhri</a>, Powered by <a href="https://github.com/hakimel/reveal.js">Reveal.js</a></small>
+				</p>
+			</section>
+
+			<section style="text-align: right" data-transition="slide" data-background="#dddddd" data-background-transition="zoom">
+				<h2>Data Warehouse</h2>
+				<q>
+					Data warehouse is a repository for structured, filtered data that has already been processed for a specific
+					purpose
+				</q>
+				<p><small>~ https://www.talend.com/resources/data-lake-vs-data-warehouse/</small></p>
+			</section>
+
+			<section style="text-align:right" data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+				<h2>Data Lake</h2>
+				<q>
+					A data lake is a system or repository of data stored in its natural format, usually object blobs or files
+				</q>
+				<p><small>~ Wikipedia</small></p>
+			</section>
+
+			<section>
+				<h3>Key Different</h3>
+				<img src="lib/img/data-warehouse-vs-data-lake-2.png" alt="data warehouse and data lake difference">
+			</section>
+
+			<section>
+				<h3>Flow</h3>
+				<img src="lib/img/contrast.png" alt="data lake vs data warehouse flow" width="80%">
+			</section>
+
+			<section>
+				<h3>Benefit</h3>
+			</section>
+
+			<section>
+				<section>
+					<h2>SEKIAN & Terima Kasih</h2>
+				</section>
+				<section>
+					<h3>TANYA & JAWAB</h3>
+					<img src="lib/img/edy.jpg" alt="Ketum PSSI Bapak Edy">
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+</html>
