@@ -1,6 +1,6 @@
-# Data Warehouse vs Data Lake 
+# %G NETWORK 
 
-A presentation about Data Warehouse versus Data Lake include definitions, key differents, flow and benefits of each other.
+A presentation about 5G Network
 
 ## Table of contents
 
@@ -18,7 +18,7 @@ The **basic setup** is for authoring presentations only. The **full setup** give
 The core of reveal.js is very easy to install. You'll simply need to download a copy of this repository and open the index.html file directly in your browser.
 
 1. Download this root repository as ZIP
-2. Unzip and Navigate to Data Warehouse vs Data Lake folder
+2. Unzip and Navigate to 5G Network folder
 3. replace the example contents in index.html with your own
 4. Open index.html in a browser to view it
 
@@ -33,9 +33,9 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
    $ git clone https://github.com/irhamdz/my-presentation.git
    ```
 
-1. Navigate to the Data Warehouse vs Data Lake folder
+1. Navigate to the 5G Network Folder
    ```sh
-   $ cd data-warehouse-vs-data-lake/
+   $ cd 5g-network/
    ```
 
 1. Install dependencies
